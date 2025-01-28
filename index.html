@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Where to Eat in Salzburg?</title>
+    <link rel="icon" type="image/png" href="icon.png">
+
+    <!-- 引入外部CSS库 -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+    <!-- 引入我们自己的CSS文件 -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 引入外部JS库 -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+    <script src="https://unpkg.com/mapbox-gl-leaflet/MapboxGLLeaflet.min.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+    <!-- 页头 -->
+    <div id="header">🍔Where to Eat in Salzburg?</div>
+    
+    <!-- 搜索栏容器（含搜索按钮和自动补全列表） -->
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="Search restaurants..." />
+        <button id="search-button">Search</button>
+        <ul id="autocomplete-list" style="display: none;"></ul>
+    </div>
+
+    <!-- 地图 -->
+    <div id="map"></div>
+
+    <!-- 分类按钮区域 -->
+    <div id="category-buttons"></div>
+
+    <!-- 餐厅列表区域 -->
+    <div id="restaurant-list"></div>
+
+    <!-- 定位按钮 -->
+    <div id="locate-button"></div>
+
+    <!-- 引入我们自己的JS脚本 -->
+    <script src="script.js"></script>
+</body>
+</html>
