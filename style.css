@@ -62,7 +62,7 @@ html, body {
     display: block;
     margin: 5px 0;
     padding: 5px;
-    background-color: #f3722c; /* 默认的橙色 */
+    background-color: #f3722c;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -278,3 +278,4 @@ html, body {
     background-color: #f3722c;
     color: white;
 }
+
