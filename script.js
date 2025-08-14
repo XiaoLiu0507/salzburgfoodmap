@@ -1,4 +1,4 @@
-// 列出所有分类
+
 const categories = [
     "African cuisine", "Japanese cuisine", "Italian cuisine", "Mexican cuisine",
     "Austrian cuisine", "Chinese cuisine", "Greek cuisine", "Nepalese cuisine",
@@ -505,3 +505,4 @@ function highlightOption(items) {
         items[currentFocus].scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
 }
+
